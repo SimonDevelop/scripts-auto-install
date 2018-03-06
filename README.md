@@ -58,6 +58,8 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - [Gitkraken](https://www.gitkraken.com/)
 - [Google Chrome](https://www.google.fr/chrome/)
 - [Nodejs](https://nodejs.org/en/)
+- [OBS-Studio](https://github.com/jp9000/obs-studio)
+- [Spice-Up](https://github.com/Philip-Scott/Spice-up)
 - [System Back](https://launchpad.net/systemback)
 - [Teamviewer](https://www.teamviewer.com/)
 - [Ubuntu Cleaner](https://github.com/gerardpuig/ubuntu-cleaner)
