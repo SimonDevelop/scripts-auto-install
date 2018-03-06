@@ -14,6 +14,7 @@ rm /tmp/discord-0.0.4.deb
 
 wget https://dl.discordapp.net/apps/linux/0.0.4/discord-0.0.4.deb -O /tmp/discord-0.0.4.deb
 sudo dpkg -i /tmp/discord-0.0.4.deb
+sudo apt-get install -f -y
 
 rm /tmp/discord-0.0.4.deb
 
