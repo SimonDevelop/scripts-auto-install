@@ -20,13 +20,7 @@ sh build/install-elementary-terminal.sh
 
 sh build/install-elementary-files-manager.sh
 
-#############################################################################################
-
-# Elementary scratch text editor
-
-sh build/install-elementary-scratch-text-editor.sh
-
 
 echo "################################################################"
-echo "################  personal software installed  #################"
+echo "##################  build software installed  ##################"
 echo "################################################################"

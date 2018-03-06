@@ -10,20 +10,10 @@
 #
 ##################################################################################################################
 
-rm -rf /tmp/elementary-scratch
-
-sudo apt-get install meson libgail-3-dev libgee-0.8-dev libgtksourceview-3.0-dev libgtkspell3-3-dev libgranite-dev libpeas-dev libsoup2.4-dev libvala-0.34-dev libvte-2.91-dev libwebkit2gtk-4.0-dev libzeitgeist-2.0 valac -y
-sudo apt-get -f install
-git clone https://github.com/elementary/code.git --depth=1 /tmp/elementary-scratch
-cd /tmp/elementary-scratch
-
-meson build --prefix=/usr
-cd build/
-ninja test
-sudo ninja install
-
-rm -rf /tmp/elementary-scratch
+sudo add-apt-repository ppa:peek-developers/stable -y
+sudo apt update
+sudo apt install -y peek
 
 echo "################################################################"
-echo "################  elementary scratch installed  ################"
+echo "#######################  peek installed  #######################"
 echo "################################################################"

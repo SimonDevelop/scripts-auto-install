@@ -17,6 +17,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - libpcre3
 - libpcre3-dev
 - libssl-dev
+- gedit
 - catfish
 - dconf-cli
 - dconf-editor
@@ -59,6 +60,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - [Google Chrome](https://www.google.fr/chrome/)
 - [Nodejs](https://nodejs.org/en/)
 - [OBS-Studio](https://github.com/jp9000/obs-studio)
+- [Peek](https://github.com/phw/peek)
 - [Spice-Up](https://github.com/Philip-Scott/Spice-up)
 - [System Back](https://launchpad.net/systemback)
 - [Teamviewer](https://www.teamviewer.com/)
@@ -74,4 +76,3 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 ## Build
 - [Elementary terminal](https://github.com/elementary/terminal)
 - [Elementary files manager](https://github.com/elementary/files)
-- [Elementary scratch text editor](https://github.com/elementary/code)
