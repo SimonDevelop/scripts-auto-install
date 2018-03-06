@@ -17,6 +17,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - libpcre3
 - libpcre3-dev
 - libssl-dev
+- gedit
 - catfish
 - dconf-cli
 - dconf-editor
@@ -74,4 +75,3 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 ## Build
 - [Elementary terminal](https://github.com/elementary/terminal)
 - [Elementary files manager](https://github.com/elementary/files)
-- [Elementary scratch text editor](https://github.com/elementary/code)
