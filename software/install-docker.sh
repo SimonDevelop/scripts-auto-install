@@ -1,9 +1,8 @@
 #!/bin/bash
-set -e
+#
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
+# Author 	: 	Simon Micheneau
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -11,28 +10,14 @@ set -e
 #
 ##################################################################################################################
 
-# Arc theme
+sudo apt-get remove docker docker-engine docker.io
 
-sh themes/install-gtk-arc-theme.sh
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"
 
-#############################################################################################
-
-# Arc OSX icons
-
-sh themes/install-arc-osx-icons.sh
-
-#############################################################################################
-
-# Plank themes
-
-sh themes/plank-themes.sh
-
-###############################################################################################
-
-# Cursor theme
-
-apt-get install -y breeze-cursor-theme
+sudo apt-get update
+sudo apt-get install docker-ce docker-compose
 
 echo "################################################################"
-echo "###################  themes/icons installed  ###################"
+echo "######################  docker installed  ######################"
 echo "################################################################"
