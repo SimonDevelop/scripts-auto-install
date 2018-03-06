@@ -60,6 +60,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - [Google Chrome](https://www.google.fr/chrome/)
 - [Nodejs](https://nodejs.org/en/)
 - [OBS-Studio](https://github.com/jp9000/obs-studio)
+- [Peek](https://github.com/phw/peek)
 - [Spice-Up](https://github.com/Philip-Scott/Spice-up)
 - [System Back](https://launchpad.net/systemback)
 - [Teamviewer](https://www.teamviewer.com/)
