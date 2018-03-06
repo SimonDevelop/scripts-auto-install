@@ -10,25 +10,14 @@
 #
 ##################################################################################################################
 
-echo "Starting maintenance"
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove -y
+sudo apt-get remove docker docker-engine docker.io
 
-echo "Starting full install"
-sh 1-install-core-software.sh
-sh 2-install-extra-software.sh
-sh 3-install-theme.sh
-sh 4-install-build-software.sh
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu xenial stable"
 
-echo "Starting maintenance after install"
-sudo apt-get install -f -y
 sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove -y
+sudo apt-get install docker-ce docker-compose
 
 echo "################################################################"
-echo "####################    T H E   E N D    #######################"
+echo "######################  docker installed  ######################"
 echo "################################################################"

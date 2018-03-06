@@ -12,13 +12,19 @@ set -e
 
 # Elementary terminal
 
-sh personal/install-elementary-terminal.sh
+sh build/install-elementary-terminal.sh
 
 #############################################################################################
 
 # Elementary files manager
 
-sh personal/install-elementary-files-manager.sh
+sh build/install-elementary-files-manager.sh
+
+#############################################################################################
+
+# Elementary scratch text editor
+
+sh build/install-elementary-scratch-text-editor.sh
 
 
 echo "################################################################"

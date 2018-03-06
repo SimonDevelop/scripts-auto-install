@@ -10,20 +10,28 @@ set -e
 #
 ##################################################################################################################
 
-#software from 'normal' repositories
-sudo apt-get install -y apt-transport-https openssl software-properties-common python-software-properties git curl openssh-server ca-certificates zlib1g zlib1g-dev libpcre3 libpcre3-dev build-essential libssl-dev
-sudo apt-get install -y catfish dconf-cli dconf-editor dropbox gimp gpick glances gparted grsync hardinfo inkscape openshot plank ppa-purge vlc screenfetch synapse filezilla adobe-flashplugin
+# Arc theme
+
+sh theme/install-gtk-arc-theme.sh
+
+#############################################################################################
+
+# Arc OSX icons
+
+sh theme/install-arc-osx-icons.sh
+
+#############################################################################################
+
+# Plank themes
+
+sh theme/plank-themes.sh
 
 ###############################################################################################
 
-# installation of zippers and unzippers
-sudo apt-get install -y p7zip-rar p7zip-full unace unrar zip unzip sharutils rar uudeview mpack arj cabextract file-roller
+# Cursor theme
 
-###############################################################################################
-
-# add 32 bits architecture
-sudo dpkg --add-architecture i386
+apt-get install -y breeze-cursor-theme
 
 echo "################################################################"
-echo "###################    core software installed  ################"
+echo "###################  themes/icons installed  ###################"
 echo "################################################################"

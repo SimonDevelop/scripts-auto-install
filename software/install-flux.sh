@@ -10,25 +10,10 @@
 #
 ##################################################################################################################
 
-echo "Starting maintenance"
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove -y
-
-echo "Starting full install"
-sh 1-install-core-software.sh
-sh 2-install-extra-software.sh
-sh 3-install-theme.sh
-sh 4-install-build-software.sh
-
-echo "Starting maintenance after install"
-sudo apt-get install -f -y
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove -y
+sudo add-apt-repository ppa:nathan-renniewaldock/flux -y
+sudo apt update
+sudo apt install -y fluxgui
 
 echo "################################################################"
-echo "####################    T H E   E N D    #######################"
+echo "#######################  flux installed  #######################"
 echo "################################################################"

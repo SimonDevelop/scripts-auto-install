@@ -1,9 +1,8 @@
 #!/bin/bash
-set -e
+#
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
+# Author 	: 	Simon Micheneau
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -11,28 +10,20 @@ set -e
 #
 ##################################################################################################################
 
-# Arc theme
+rm -rf /tmp/elementary-scratch
 
-sh themes/install-gtk-arc-theme.sh
+sudo apt-get install meson libgail-3-dev libgee-0.8-dev libgtksourceview-3.0-dev libgtkspell3-3-dev libgranite-dev libpeas-dev libsoup2.4-dev libvala-0.34-dev libvte-2.91-dev libwebkit2gtk-4.0-dev libzeitgeist-2.0 valac -y
+sudo apt-get -f install
+git clone https://github.com/elementary/code.git --depth=1 /tmp/elementary-scratch
+cd /tmp/elementary-scratch
 
-#############################################################################################
+meson build --prefix=/usr
+cd build/
+ninja test
+sudo ninja install
 
-# Arc OSX icons
-
-sh themes/install-arc-osx-icons.sh
-
-#############################################################################################
-
-# Plank themes
-
-sh themes/plank-themes.sh
-
-###############################################################################################
-
-# Cursor theme
-
-apt-get install -y breeze-cursor-theme
+rm -rf /tmp/elementary-scratch
 
 echo "################################################################"
-echo "###################  themes/icons installed  ###################"
+echo "################  elementary scratch installed  ################"
 echo "################################################################"
