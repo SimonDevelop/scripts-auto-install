@@ -10,25 +10,21 @@
 #
 ##################################################################################################################
 
-echo "Starting maintenance"
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove -y
+rm -rf /tmp/elementary-terminal
 
-echo "Starting full install"
-sh 1-install-core-software.sh
-sh 2-install-extra-software.sh
-sh 3-install-themes.sh
-sh 4-install-personal-software.sh
+sudo apt-get install cmake intltool libgranite-dev libvte-2.91-dev valac -y
+sudo apt-get -f install
+git clone https://github.com/elementary/terminal.git --depth=1 /tmp/elementary-terminal
+cd /tmp/elementary-terminal
+mkdir build
+cd build/
 
-echo "Starting maintenance after install"
-sudo apt-get install -f -y
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get dist-upgrade -y
-sudo apt-get autoremove -y
+cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+make
+sudo make install
+
+rm -rf /tmp/elementary-terminal
 
 echo "################################################################"
-echo "####################    T H E   E N D    #######################"
+echo "###############  elementary terminal installed  ################"
 echo "################################################################"

@@ -17,6 +17,12 @@ sh themes/install-gtk-arc-theme.sh
 
 #############################################################################################
 
+# Arc OSX icons
+
+sh themes/install-arc-osx-icons.sh
+
+#############################################################################################
+
 # Plank themes
 
 sh themes/plank-themes.sh
