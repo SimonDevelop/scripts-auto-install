@@ -37,6 +37,8 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - ppa-purge
 - [vlc](https://www.videolan.org/vlc/index.html)
 - screenfetch
+- screenruler
+- shutter
 - synapse
 - [filezilla](https://filezilla-project.org/)
 - adobe-flashplugin
