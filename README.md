@@ -60,7 +60,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - [Atom](https://github.com/atom/atom)
 - [Discord](https://discordapp.com/)
 - [Docker & Docker compose](https://www.docker.com/)
-- [Flux](https://github.com/xflux-gui/fluxgui)
+- [Redshift](https://github.com/jonls/redshift)
 - [Gitkraken](https://www.gitkraken.com/)
 - [Google Chrome](https://www.google.fr/chrome/)
 - [Nodejs](https://nodejs.org/en/)
