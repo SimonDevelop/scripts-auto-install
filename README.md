@@ -1,6 +1,9 @@
-# Scripts Linux Mint 18.3 Cinnamon
+# Scripts Auto Install
 
 Scripts for automatic install of all my necessary programs, inspired of repository [erikdubois/Ultimate-Linux-Mint-18.3-Cinnamon](https://github.com/erikdubois/Ultimate-Linux-Mint-18.3-Cinnamon)
+
+## Tested on :
+- Linux Mint 18.3 Cinnamon
 
 ## Core (packages and primary software)
 - git
