@@ -46,6 +46,12 @@ sh software/install-google-chrome.sh
 
 ###############################################################################################
 
+# Insomnia
+
+sh software/install-insomnia.sh
+
+###############################################################################################
+
 # Nodejs
 
 sh software/install-nodejs.sh
