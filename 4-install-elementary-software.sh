@@ -9,6 +9,20 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
+# elementary repository
+
+sudo apt-add-repository ppa:elementary-os/daily -y
+sudo apt update
+
+###############################################################################################
+
+# Files
+
+sudo apt-get install pantheon-files -y
+
+###############################################################################################
+
+# Terminal
 
 rm -rf /tmp/elementary-terminal
 
