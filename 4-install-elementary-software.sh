@@ -39,6 +39,23 @@ sudo make install
 
 rm -rf /tmp/elementary-terminal
 
+###############################################################################################
+
+# Gifup
+
+rm -rf /tmp/elementary-gifup
+
+git clone https://github.com/BharatKalluri/Gifup.git --depth=1 /tmp/elementary-gifup
+cd /tmp/elementary-gifup
+mkdir build
+cd build/
+
+cmake -DCMAKE_INSTALL_PREFIX=/usr ../
+make
+sudo make install
+
+rm -rf /tmp/elementary-gifup
+
 echo "################################################################"
-echo "###############  elementary terminal installed  ################"
+echo "###############  elementary software installed  ################"
 echo "################################################################"

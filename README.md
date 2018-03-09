@@ -63,6 +63,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - [Redshift](https://github.com/jonls/redshift)
 - [Gitkraken](https://www.gitkraken.com/)
 - [Google Chrome](https://www.google.fr/chrome/)
+- [Insomnia](https://github.com/getinsomnia/insomnia)
 - [Nodejs](https://nodejs.org/en/)
 - [OBS-Studio](https://github.com/jp9000/obs-studio)
 - [Peek](https://github.com/phw/peek)
@@ -78,6 +79,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - [Plank themes](https://github.com/erikdubois/Plank-Themes)
 - Breeze cursor theme
 
-## Build
-- [Elementary terminal](https://github.com/elementary/terminal)
-- [Elementary files manager](https://github.com/elementary/files)
+## Elementary Software
+- [Terminal](https://github.com/elementary/terminal)
+- [Files](https://github.com/elementary/files)
+- [Gifup](https://github.com/BharatKalluri/Gifup)
