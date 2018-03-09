@@ -82,4 +82,4 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 ## Elementary Software
 - [Terminal](https://github.com/elementary/terminal)
 - [Files](https://github.com/elementary/files)
-- [Gifup](https://github.com/BharatKalluri/Gifup)
+- [Code](https://github.com/elementary/code)
