@@ -11,7 +11,7 @@
 ##################################################################################################################
 # elementary repository
 
-sudo apt-add-repository ppa:elementary-os/daily -y
+sudo apt-add-repository ppa:elementary-os/stable -y
 sudo apt update
 
 ###############################################################################################
