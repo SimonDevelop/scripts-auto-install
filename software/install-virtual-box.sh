@@ -13,7 +13,7 @@
 
 rm /tmp/virtual-box.deb
 
-wget https://download.virtualbox.org/virtualbox/5.2.8/virtualbox-5.2_5.2.8-121009~Ubuntu~xenial_amd64.deb -O /tmp/virtual-box.deb
+wget https://download.virtualbox.org/virtualbox/5.2.16/virtualbox-5.2_5.2.16-123759~Ubuntu~bionic_amd64.deb -O /tmp/virtual-box.deb
 sudo dpkg -i /tmp/virtual-box.deb
 sudo apt-get install -f -y
 
