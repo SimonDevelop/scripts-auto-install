@@ -3,7 +3,7 @@
 Scripts for automatic install of all my necessary programs, inspired of repository [erikdubois/Ultimate-Linux-Mint-18.3-Cinnamon](https://github.com/erikdubois/Ultimate-Linux-Mint-18.3-Cinnamon)
 
 ## Tested on :
-- Linux Mint 18.3 Cinnamon
+- Linux Mint 19 Cinnamon
 
 ## Core (packages and primary software)
 - git
@@ -75,11 +75,6 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 
 ## Theme
 - [Arc theme](https://github.com/horst3180/arc-theme)
-- [Arc OSX icons](https://github.com/LinxGem33/Arc-OSX-Icons)
+- [Arc OSX icons](https://github.com/iurrieta/Arc-OSX-Icons)
 - [Plank themes](https://github.com/erikdubois/Plank-Themes)
 - Breeze cursor theme
-
-## Elementary Software
-- [Terminal](https://github.com/elementary/terminal)
-- [Files](https://github.com/elementary/files)
-- [Code](https://github.com/elementary/code)

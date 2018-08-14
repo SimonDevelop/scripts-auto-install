@@ -14,7 +14,7 @@ rm -rf /tmp/arc-osx-icons
 
 sudo apt-get install build-essential autoconf automake pkg-config -y
 sudo apt-get -f install
-git clone https://github.com/LinxGem33/Arc-OSX-Icons.git --depth=1 /tmp/arc-osx-icons
+git clone https://github.com/iurrieta/Arc-OSX-Icons.git --depth=1 /tmp/arc-osx-icons
 cp -r /tmp/arc-osx-icons/src/* ~/.icons/
 
 rm -rf /tmp/arc-osx-icons
