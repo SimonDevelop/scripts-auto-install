@@ -13,12 +13,12 @@
 
 rm /tmp/virtual-box.deb
 
-wget https://download.virtualbox.org/virtualbox/5.2.16/virtualbox-5.2_5.2.16-123759~Ubuntu~bionic_amd64.deb -O /tmp/virtual-box.deb
+wget https://download.virtualbox.org/virtualbox/6.0.8/virtualbox-6.0_6.0.8-130520~Ubuntu~bionic_amd64.deb -O /tmp/virtual-box.deb
 sudo dpkg -i /tmp/virtual-box.deb
 sudo apt-get install -f -y
 
 rm /tmp/virtual-box.deb
 
 echo "################################################################"
-echo "####################  virtualbox installed  ####################"
+echo "####################  virtualbox 6 installed  ####################"
 echo "################################################################"
