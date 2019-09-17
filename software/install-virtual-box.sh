@@ -13,7 +13,7 @@
 
 rm /tmp/virtual-box.deb
 
-wget https://download.virtualbox.org/virtualbox/6.0.8/virtualbox-6.0_6.0.8-130520~Ubuntu~bionic_amd64.deb -O /tmp/virtual-box.deb
+wget https://download.virtualbox.org/virtualbox/6.0.12/virtualbox-6.0_6.0.12-133076~Ubuntu~bionic_amd64.deb -O /tmp/virtual-box.deb
 sudo dpkg -i /tmp/virtual-box.deb
 sudo apt-get install -f -y
 

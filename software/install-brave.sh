@@ -2,8 +2,8 @@
 #
 ##################################################################################################################
 # Written to be used on 64 bits computers
-# Author 	: 	Erik Dubois
-# Website 	: 	http://www.erikdubois.be
+# Author 	: 	Simon Micheneau
+# Website 	: 	https://www.simon-micheneau.fr/
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -11,14 +11,13 @@
 #
 ##################################################################################################################
 
-rm /tmp/google-chrome-stable_current_amd64.deb
+curl -s https://brave-browser-apt-release.s3.brave.com/brave-core.asc | sudo apt-key --keyring /etc/apt/trusted.gpg.d/brave-browser-release.gpg add -
+source /etc/os-release
+echo "deb [arch=amd64] https://brave-browser-apt-release.s3.brave.com/ $UBUNTU_CODENAME main" | sudo tee /etc/apt/sources.list.d/brave-browser-release-${UBUNTU_CODENAME}.list
 
-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb -O /tmp/google-chrome-stable_current_amd64.deb
-sudo dpkg -i /tmp/google-chrome-stable_current_amd64.deb
-sudo apt-get install -f -y
-
-rm /tmp/google-chrome-stable_current_amd64.deb
+sudo apt update
+sudo apt install brave-browser
 
 echo "################################################################"
-echo "###################  google chrome installed  ##################"
+echo "#######################  brave installed  ######################"
 echo "################################################################"

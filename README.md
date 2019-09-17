@@ -62,7 +62,7 @@ Scripts for automatic install of all my necessary programs, inspired of reposito
 - [Docker & Docker compose](https://www.docker.com/)
 - [Redshift](https://github.com/jonls/redshift)
 - [Gitkraken](https://www.gitkraken.com/)
-- [Google Chrome](https://www.google.fr/chrome/)
+- [Brave](https://brave.com/)
 - [Insomnia](https://github.com/getinsomnia/insomnia)
 - [Nodejs](https://nodejs.org/en/)
 - [OBS-Studio](https://github.com/jp9000/obs-studio)

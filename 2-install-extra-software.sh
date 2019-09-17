@@ -42,7 +42,7 @@ sh software/install-gitkraken.sh
 
 # Google Chrome
 
-sh software/install-google-chrome.sh
+sh software/install-brave.sh
 
 ###############################################################################################
 
